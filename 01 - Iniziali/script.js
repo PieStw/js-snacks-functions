@@ -15,7 +15,7 @@ function check(names){
 
 // Invoca la funzione qui e stampa il risultato in console
 
-newArray = check(names);
+const newArray = check(names);
 console.log(newArray);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
