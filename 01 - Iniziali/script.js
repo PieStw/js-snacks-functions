@@ -5,9 +5,17 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function check(names){
+    let newArray = [];
+    names.forEach(element => {
+        newArray.push(element[0]);
+    });
+    return newArray;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+newArray = check(names);
+console.log(newArray);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
